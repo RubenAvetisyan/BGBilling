@@ -4,18 +4,12 @@ import createTableClass from '../src/createTableClass'
 import BillingDatabase from '../src/BillingDatabase'
 import tableClasses from '../src/tables'
 
+import db from '../src/utils/db-schema.json'
 // Define a mock config object
 const mockConfig = { /* ... */ }
 
 // Define a mock table definition
-const mockTableDefinition = {
-  fields: {
-    id: { PK: true, IX: false, type: 'INT', nullable: false, defaultValue: '0', description: '' },
-    name: { PK: false, IX: false, type: 'VARCHAR(255)', nullable: true, defaultValue: null, description: '' },
-    email: { PK: false, IX: false, type: 'VARCHAR(255)', nullable: true, defaultValue: null, description: '' },
-  },
-  referenceTables: [],
-}
+const mockTableDefinition = db
 
 describe('createTableClass', () => {
   test('should return a valid Table class', () => {
@@ -28,11 +22,11 @@ describe('createTableClass', () => {
     // expect(table).toHaveProperty('getTableName');
   })
 
-  // test('should return a Table class with correct tableName and fields', () => {
-  //     const Table = createTableClass<typeof mockConfig>('users', mockTableDefinition);
-  //     expect(Table.getTableName()).toBe('users');
-  //     expect(Table.getFields()).toEqual(['id', 'name', 'email']);
-  // });
+  test('should return a Table class with correct tableName and fields', () => {
+    const Table = createTableClass<typeof mockConfig>('users', mockTableDefinition.address_city);
+    expect(Table.getTableName()).toBe('users');
+    expect(Table.getFields()).toEqual(['id', 'name', 'email']);
+  });
 
   // test('should return a Table class with getAll and getById methods', () => {
   //     const Table = createTableClass<typeof mockConfig>('users', mockTableDefinition);
