@@ -26,7 +26,7 @@
         "description": "код города"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cityid",
         "tableName": "address_city",
@@ -69,7 +69,7 @@
         "description": "код страны"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "country_id",
         "tableName": "address_country",
@@ -96,7 +96,7 @@
         "description": "название"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "address_house": {
     "fields": {
@@ -197,7 +197,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "streetid",
         "tableName": "address_street",
@@ -250,7 +250,7 @@
         "description": "код города"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cityid",
         "tableName": "address_city",
@@ -293,7 +293,7 @@
         "description": "код города"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cityid",
         "tableName": "address_city",
@@ -328,7 +328,7 @@
         "description": "список id действий"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "bgs_group": {
     "fields": {
@@ -397,7 +397,7 @@
         "description": "id меню для этой группы"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "bgs_group_action": {
     "fields": {
@@ -426,7 +426,7 @@
         "description": "код действия"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "gid",
         "tableName": "bgs_group",
@@ -461,7 +461,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "bgs_module_action": {
     "fields": {
@@ -482,7 +482,7 @@
         "description": "xml с действиями"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "bgs_query_log_yyyyMM": {
     "fields": {
@@ -543,7 +543,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "uid",
         "tableName": "tableId",
@@ -586,7 +586,7 @@
         "description": "id группы действий"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "uid",
         "tableName": "user",
@@ -613,7 +613,7 @@
         "description": "код группы"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "uid",
         "tableName": "bgs_group",
@@ -805,7 +805,7 @@
         "description": "id домена"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "gr",
         "tableName": "contract_group",
@@ -876,7 +876,7 @@
         "description": "сумма наработки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -964,7 +964,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_autopayment": {
     "fields": {
@@ -1025,7 +1025,7 @@
         "description": "id пользователя выключившего возможность автоплатежа для модуля на договоре"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "contract_id",
         "tableName": "contract",
@@ -1097,7 +1097,7 @@
         "description": "расходы за месяц"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1180,7 +1180,7 @@
         "description": "данное поле различает возврат и расход. возврат - 1, расход - 0"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1244,7 +1244,7 @@
         "description": "данное поле различает возврат и расход. возврат - 1, расход - 0"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "up",
         "tableName": "contract_charge_types",
@@ -1311,7 +1311,7 @@
         "description": "флаг - доступно ли примечание пользователю"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1346,7 +1346,7 @@
         "description": "строка-шаблон"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_delete_money": {
     "fields": {
@@ -1423,7 +1423,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_delete_time": {
     "fields": {
@@ -1492,7 +1492,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_group": {
     "fields": {
@@ -1537,7 +1537,7 @@
         "description": "комментарий группы"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_history_open_log": {
     "fields": {
@@ -1566,7 +1566,7 @@
         "description": "дата и время последнего открытия договора в клиенте биллига данным пользователем"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -1638,7 +1638,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "parent_id",
         "tableName": "contract_label",
@@ -1665,7 +1665,7 @@
         "description": "id метки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "contract_id",
         "tableName": "contract",
@@ -1753,7 +1753,7 @@
         "description": "статус, 0 - \"лимит не погашен\", 1 - \"лимит частично погашен\", 2 - \"лимит погашен\", 3 - \"лимит просрочен.\""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1793,7 +1793,7 @@
         "description": "кол-во просроченных понижений после последнего разблокирования"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1852,7 +1852,7 @@
         "description": "статус"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -1919,7 +1919,7 @@
         "description": "данные с которыми пользователь пытался зайти в личный кабинет"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "tableId",
@@ -1970,7 +1970,7 @@
         "description": "ip адрес пользователя"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "tableId",
@@ -2029,7 +2029,7 @@
         "description": "тип пользователя: p - одноразовый вход в личный кабинет c - клиент a - администратор"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "tableId",
@@ -2056,7 +2056,7 @@
         "description": "код модуля"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2088,7 +2088,7 @@
         "description": "код параметра"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "gid",
         "tableName": "contract_parameter_group_name",
@@ -2120,7 +2120,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_1": {
     "fields": {
@@ -2149,7 +2149,7 @@
         "description": "значение"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2205,7 +2205,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_2": {
     "fields": {
@@ -2290,7 +2290,7 @@
         "description": "ключ формата адреса"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2351,7 +2351,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -2410,7 +2410,7 @@
         "description": "поле не используется"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2466,7 +2466,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -2493,7 +2493,7 @@
         "description": "код e-mail адреса договора"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mailid",
         "tableName": "mail_list",
@@ -2541,7 +2541,7 @@
         "description": "код обслуживающего лица"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2578,7 +2578,7 @@
         "description": "название обслуживающего лица"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_4_log": {
     "fields": {
@@ -2623,7 +2623,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -2658,7 +2658,7 @@
         "description": "значение 1 - флаг установлен, 0 - снят"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2714,7 +2714,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -2749,7 +2749,7 @@
         "description": "значение"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2805,7 +2805,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -2848,7 +2848,7 @@
         "description": "пользовательское значение"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -2917,7 +2917,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "val",
         "tableName": "contract_parameter_type_7_values",
@@ -2957,7 +2957,7 @@
         "description": "строка значения"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_8": {
     "fields": {
@@ -2986,7 +2986,7 @@
         "description": "код договора - значение"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -3047,7 +3047,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -3082,7 +3082,7 @@
         "description": "строка значения"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_multilist_item": {
     "fields": {
@@ -3119,7 +3119,7 @@
         "description": "код значения"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_multilist_log": {
     "fields": {
@@ -3164,7 +3164,7 @@
         "description": "кто изменил"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_multilist_values": {
     "fields": {
@@ -3193,7 +3193,7 @@
         "description": "строка значения"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_phone": {
     "fields": {
@@ -3222,7 +3222,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameter_type_phone_item": {
     "fields": {
@@ -3275,7 +3275,7 @@
         "description": "комментарий к номеру"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "pid",
         "tableName": "contract_parameters_pref",
@@ -3339,7 +3339,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_parameters_pref": {
     "fields": {
@@ -3408,7 +3408,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_pattern": {
     "fields": {
@@ -3549,7 +3549,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "pgid",
         "tableName": "contract_parameter_group_name",
@@ -3591,7 +3591,7 @@
         "description": "код экземпляра модуля"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "pid",
         "tableName": "tableId",
@@ -3647,7 +3647,7 @@
         "description": "описание параметра"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_pattern_services": {
     "fields": {
@@ -3668,7 +3668,7 @@
         "description": "код услуги"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "pid",
         "tableName": "contract_pattern",
@@ -3748,7 +3748,7 @@
         "description": "время изменения записи"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -3804,7 +3804,7 @@
         "description": "0 - редактируемый, 1 - нередактируемый"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "up",
         "tableName": "contract_payment_types",
@@ -3879,7 +3879,7 @@
         "description": "комментарий"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_reserve_total": {
     "fields": {
@@ -3900,7 +3900,7 @@
         "description": "сумма всех резервов на договоре"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_reserve_types": {
     "fields": {
@@ -3929,7 +3929,7 @@
         "description": "1- используется"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "contract_script": {
     "fields": {
@@ -3982,7 +3982,7 @@
         "description": "комментарий"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4070,7 +4070,7 @@
         "description": "не используется с 4.6"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4150,7 +4150,7 @@
         "description": "дата окончания статуса"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "uid",
         "tableName": "user",
@@ -4262,7 +4262,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4336,7 +4336,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4440,7 +4440,7 @@
         "description": "время деактивации опции"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4549,7 +4549,7 @@
         "description": "конфигурационные параметры тарифа"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -4626,7 +4626,7 @@
         "description": "информация об ошибках"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mid",
         "tableName": "module",
@@ -4674,7 +4674,7 @@
         "description": "коментарий"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "parentId",
         "tableName": "domain",
@@ -4701,7 +4701,7 @@
         "description": "название"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "global_script": {
     "fields": {
@@ -4746,7 +4746,7 @@
         "description": "время последнего изменения"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -4845,7 +4845,7 @@
         "description": "скрипт деинсталляции"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "inv_product": {
     "fields": {
@@ -4970,7 +4970,7 @@
         "description": "описание"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "contractId",
         "tableName": "contract",
@@ -5079,7 +5079,7 @@
         "description": "версия записи"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "contractId",
         "tableName": "contract",
@@ -5316,7 +5316,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "inv_product_spec_activation_mode": {
     "fields": {
@@ -5409,7 +5409,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "productSpecId",
         "tableName": "inv_product_spec",
@@ -5452,7 +5452,7 @@
         "description": "id-договора, в котором изменился параметр"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "log_contract_limit": {
     "fields": {
@@ -5505,7 +5505,7 @@
         "description": "на сколько дней понижение"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -5548,7 +5548,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "uid",
         "tableName": "tableId",
@@ -5591,7 +5591,7 @@
         "description": "код нового режима (0-кредит, 1-дебет)"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -5626,7 +5626,7 @@
         "description": "код договора"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -5677,7 +5677,7 @@
         "description": "вывод функции"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
@@ -5712,7 +5712,7 @@
         "description": "лог"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "log_login_pswd": {
     "fields": {
@@ -5749,7 +5749,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "mail_list": {
     "fields": {
@@ -5794,7 +5794,7 @@
         "description": "код узла предка (для оформления в справочнике)"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "up",
         "tableName": "mail_list",
@@ -5829,7 +5829,7 @@
         "description": "текст сообщения"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "mail_temp": {
     "fields": {
@@ -5858,7 +5858,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "id",
         "tableName": "mail_list_message",
@@ -5930,7 +5930,7 @@
         "description": "пользователи биллинга, которым показывать сообщение"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "module": {
     "fields": {
@@ -5959,7 +5959,7 @@
         "description": "имя модуля"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "name",
         "tableName": "installed_modules",
@@ -6026,7 +6026,7 @@
         "description": "текст конфигурации"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "module_tariff_tree": {
     "fields": {
@@ -6071,7 +6071,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mid",
         "tableName": "module",
@@ -6140,7 +6140,7 @@
         "description": "позиция узла в родительском (нумерация начинается с 0)"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mtree_id",
         "tableName": "module_tariff_tree",
@@ -6255,7 +6255,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "payment_register_item_yyyyMM": {
     "fields": {
@@ -6332,7 +6332,7 @@
         "description": "сумма"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "rid",
         "tableName": "payment_register",
@@ -6406,7 +6406,7 @@
         "description": "дата регистрации ошибки (проведения переобсчета)"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "permission_kit": {
     "fields": {
@@ -6483,7 +6483,7 @@
         "description": "описание набора"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "plugin_config": {
     "fields": {
@@ -6504,7 +6504,7 @@
         "description": "конфигурация плагина"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "pid",
         "tableName": "installed_modules",
@@ -6555,7 +6555,7 @@
         "description": "список id наборов ограничений"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "scheduled_class": {
     "fields": {
@@ -6584,7 +6584,7 @@
         "description": "имя java класса"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "scheduled_periodic_run": {
     "fields": {
@@ -6613,7 +6613,7 @@
         "description": "количество одновременно выполняемых задач"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "scheduled_task_log": {
     "fields": {
@@ -6658,7 +6658,7 @@
         "description": "дата/время окончания выполнения задачи в виде unix_time"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "task_id",
         "tableName": "scheduled_tasks",
@@ -6709,7 +6709,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "scheduled_tasks": {
     "fields": {
@@ -6834,7 +6834,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "class_id",
         "tableName": "scheduled_class",
@@ -6861,7 +6861,7 @@
         "description": "название"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_backup": {
     "fields": {
@@ -6930,7 +6930,7 @@
         "description": "тип резервной копии : 0 - копия глобального скрипта,1-код функции, 2- код библиотеки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -6965,7 +6965,7 @@
         "description": "тело .class файла"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_classes_ifaces": {
     "fields": {
@@ -6986,7 +6986,7 @@
         "description": "наименование интерфейса"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_custom_template": {
     "fields": {
@@ -7055,7 +7055,7 @@
         "description": "расширение"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_event_queue": {
     "fields": {
@@ -7076,7 +7076,7 @@
         "description": "сериализованный java класс с событием"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_event_type": {
     "fields": {
@@ -7121,7 +7121,7 @@
         "description": "тип события (1-привязано к договору, 0 - глобальное)"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "script_function": {
     "fields": {
@@ -7174,7 +7174,7 @@
         "description": "время последнего изменения"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "script_id",
         "tableName": "script",
@@ -7214,7 +7214,7 @@
         "description": "код типа события"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "fid",
         "tableName": "script_function",
@@ -7278,7 +7278,7 @@
         "description": "время последнего изменения"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "user_id",
         "tableName": "user",
@@ -7305,7 +7305,7 @@
         "description": "значение идентификатора"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "service": {
     "fields": {
@@ -7422,7 +7422,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mid",
         "tableName": "module",
@@ -7449,7 +7449,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "source": {
     "fields": {
@@ -7550,7 +7550,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "source_data_yyyyMM": {
     "fields": {
@@ -7595,7 +7595,7 @@
         "description": "пометка о обработке"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "source_id",
         "tableName": "source",
@@ -7622,7 +7622,7 @@
         "description": "md5 хэши выполненных запросов"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "mid",
         "tableName": "installed_modules",
@@ -7689,7 +7689,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "tariff_group_tariff": {
     "fields": {
@@ -7734,7 +7734,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "tgid",
         "tableName": "tariff_group",
@@ -7774,7 +7774,7 @@
         "description": "название метки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "parent_id",
         "tableName": "tariff_label",
@@ -7801,7 +7801,7 @@
         "description": "код тарифной метки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "tariff_id",
         "tableName": "tariff_plan",
@@ -7945,7 +7945,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "tariff_option_activate_mode": {
     "fields": {
@@ -8054,7 +8054,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "option_id",
         "tableName": "tariff_option",
@@ -8166,7 +8166,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "tree_id",
         "tableName": "tariff_tree",
@@ -8193,7 +8193,7 @@
         "description": "устаревшая колонка (код дерева-предка)"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "tariff_tree_config": {
     "fields": {
@@ -8214,7 +8214,7 @@
         "description": "xml конфигурация тарифного дерева"
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "task_load": {
     "fields": {
@@ -8267,7 +8267,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "param",
         "tableName": "source",
@@ -8326,7 +8326,7 @@
         "description": "время начала обработки"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "param",
         "tableName": "source",
@@ -8513,7 +8513,7 @@
         "description": ""
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "role_id",
         "tableName": "role",
@@ -8548,7 +8548,7 @@
         "description": ""
       }
     },
-    "refferenceTables": []
+    "referenceTables": []
   },
   "user_tables": {
     "fields": {
@@ -8601,7 +8601,7 @@
         "description": "скрыть(1)/показать(0) столбец, через запятую. пример 0,0,1,0."
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "userId",
         "tableName": "user",
@@ -8681,7 +8681,7 @@
         "description": "строковое название экземпляра модуля"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "tableId",
@@ -8721,7 +8721,7 @@
         "description": "кол-во"
       }
     },
-    "refferenceTables": [
+    "referenceTables": [
       {
         "thisField": "cid",
         "tableName": "contract",
