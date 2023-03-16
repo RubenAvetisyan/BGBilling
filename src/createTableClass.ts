@@ -5,20 +5,20 @@ interface FieldDefinition {
   PK: boolean
   IX: boolean
   type: string
-  nullable: boolean
+  nullable: string | boolean | 'true' | 'false'
   defaultValue: string
   description: string
 }
 
 interface ReferenceTable {
-  thisField: string
-  tableName: string
-  field: string
+  thisField?: string
+  tableName?: string
+  field?: string
 }
 
 export interface TableDefinition {
   fields: Record<string, FieldDefinition>
-  refferenceTables: ReferenceTable[]
+  referenceTables: ReferenceTable[] | []
 }
 
 interface TableInstance {
@@ -80,8 +80,8 @@ export default function createTableClass<T extends Record<string, any>>(
   const primaryKey = Object.keys(tableDefinition.fields).find(
     fieldName => tableDefinition.fields[fieldName].PK,
   )
-  const referenceTables = tableDefinition.refferenceTables
-    ? tableDefinition.refferenceTables
+  const referenceTables = tableDefinition.referenceTables
+    ? tableDefinition.referenceTables
       .map(
         refTable =>
                     `LEFT JOIN ${refTable.tableName} ON ${tableName}.${refTable.thisField} = ${refTable.tableName}.${refTable.field}`,
